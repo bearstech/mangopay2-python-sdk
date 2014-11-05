@@ -18,5 +18,10 @@ setup(
         "requests-oauthlib>=0.4.0",
         "lockfile>=0.9.1"
     ],
-	keywords="leetchi api sdk mangopay"
+    tests_require=[
+        #"unittest",
+        "coverage<3.99",
+    ],
+    test_suite="test_suite",
+    keywords="leetchi api sdk mangopay"
 )
